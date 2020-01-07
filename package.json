@@ -9,6 +9,7 @@
   "author": "Petr",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -24,5 +25,10 @@
     "rateyo": "^2.3.5",
     "slick-carousel": "^1.8.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bigslide": "^0.12.1",
+    "easy-pie-chart": "^2.1.7",
+    "fancybox": "^3.0.1",
+    "mmenu-js": "^8.4.5"
+  }
 }
