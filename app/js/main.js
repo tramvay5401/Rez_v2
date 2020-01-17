@@ -20,10 +20,12 @@ $(function() {
     return false;
   });
 
+
+
   $('.preloader').fadeOut('slow');
     $('.chart').each(function(){
     $(this).easyPieChart({
-            size:140,
+            
             animate: 2000,
             lineCap:'butt',
             scaleColor: false,
@@ -32,7 +34,7 @@ $(function() {
             lineWidth: 10
         });
     });
-
+    
   
    
 });

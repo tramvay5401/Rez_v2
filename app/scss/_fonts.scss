@@ -33,63 +33,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-search:before {
-  content: "\f002";
-}
-.icon-envelope-o:before {
-  content: "\f003";
-}
-.icon-heart:before {
-  content: "\f004";
-}
-.icon-user:before {
-  content: "\f007";
-}
-.icon-th-large:before {
-  content: "\f009";
-}
-.icon-th-list:before {
-  content: "\f00b";
-}
-.icon-check:before {
-  content: "\f00c";
-}
-.icon-close:before {
-  content: "\f00d";
-}
-.icon-remove:before {
-  content: "\f00d";
-}
-.icon-times:before {
-  content: "\f00d";
-}
-.icon-lock:before {
-  content: "\f023";
-}
-.icon-headphones:before {
-  content: "\f025";
-}
-.icon-map-marker:before {
-  content: "\f041";
-}
-.icon-edit:before {
-  content: "\f044";
-}
-.icon-pencil-square-o:before {
-  content: "\f044";
-}
-.icon-share-square-o:before {
-  content: "\f045";
-}
-.icon-check-square-o:before {
-  content: "\f046";
-}
-.icon-mail-forward:before {
-  content: "\f064";
-}
-.icon-share:before {
-  content: "\f064";
-}
 .icon-comments:before {
   content: "\f086";
 }
@@ -107,6 +50,9 @@
 }
 .icon-facebook-f:before {
   content: "\f09a";
+}
+.icon-github:before {
+  content: "\f09b";
 }
 .icon-bell-o:before {
   content: "\f0a2";
@@ -128,12 +74,6 @@
 }
 .icon-caret-up:before {
   content: "\f0d8";
-}
-.icon-sort:before {
-  content: "\f0dc";
-}
-.icon-unsorted:before {
-  content: "\f0dc";
 }
 .icon-sort-desc:before {
   content: "\f0dd";
@@ -182,15 +122,6 @@
 }
 .icon-reply:before {
   content: "\f112";
-}
-.icon-smile-o:before {
-  content: "\f118";
-}
-.icon-frown-o:before {
-  content: "\f119";
-}
-.icon-meh-o:before {
-  content: "\f11a";
 }
 .icon-html5:before {
   content: "\f13b";

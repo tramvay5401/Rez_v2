@@ -160,6 +160,7 @@
       position: relative;
       canvas {
         max-width: 50px;
+        max-height: 50px;
       }
       .percent {
         position: absolute;
@@ -176,7 +177,7 @@
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 800;
-        bottom: -14px;
+        bottom: -22px;
         right: -6px;
       }
       .photoshop {
@@ -184,7 +185,7 @@
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 800;
-        bottom: -14px;
+        bottom: -22px;
         right: -6px;
       }
       .script {
@@ -192,7 +193,7 @@
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 800;
-        bottom: -14px;
+        bottom: -22px;
         right: 20px;
       }
       .galp {
@@ -200,7 +201,7 @@
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 800;
-        bottom: -14px;
+        bottom: -22px;
         left: 8px;
       }
     }
@@ -225,51 +226,62 @@
   .tab__content-wrapper .tab-item__box {
     position: relative;
     max-width: 100%;
-    margin-bottom: 210px;
+    margin-bottom: 30px;
+    width: 500px;
   }
+
   figure.effect-oscar figcaption::before {
-    bottom: -200px;
+    top: 10px;
+    bottom: 30px;
+    left: 15px;
+    right: 15px;
   }
   figure.effect-oscar.effect-mod figcaption::before {
-    bottom: -270px;
+    top: 10px;
+    bottom: 30px;
+    left: 15px;
+    right: 15px;
   }
 }
 @media (max-width: 615px) {
   figure.effect-oscar figcaption::before {
-    bottom: -250px;
+    bottom: 30px;
   }
 
   .tab__content-wrapper .tab-item__box {
-    margin-bottom: 210px;
+    margin-bottom: 30px;
   }
 }
-@media (max-width: 550px){
-  figure.effect-oscar figcaption::before {
-    bottom: -190px;
-  }
-  figure.effect-oscar.effect-mod figcaption::before {
-    bottom: -190px;
-  }
+@media (max-width: 550px) {
+  // figure.effect-oscar figcaption::before {
+  //   bottom: -190px;
+  // }
+  // figure.effect-oscar.effect-mod figcaption::before {
+  //   bottom: -190px;
+  // }
 
-  .tab__content-wrapper .tab-item__box {
-    margin-bottom: 210px;
-  }
+  // .tab__content-wrapper .tab-item__box {
+  //   margin-bottom: 210px;
+  // }
 }
 @media (max-width: 500px) {
+  .tab__content-list {
+    column-count: 3;
+  }
   .tab__content-wrapper .tab-item__box {
-    margin-bottom: 208px;
-}
+    margin-bottom: 30px;
+  }
   .tab__content-wrapper .tab-item__box {
     position: relative;
     max-width: 100%;
-    margin-bottom: 157px;
-}
- 
+    margin-bottom: 30px;
+  }
+
   figure.effect-oscar figcaption::before {
-    bottom: -160px;
+    bottom: 30px;
   }
   figure.effect-oscar.effect-mod figcaption::before {
-    bottom: -170px;
+    bottom: 30px;
   }
   .header__list {
     .aside__item-list {
@@ -325,22 +337,23 @@
     cursor: pointer;
   }
 }
-@media (max-width: 390px){
-  .tab__content-wrapper .tab-item__box {
-    margin-bottom: 150px;
-  }
-  figure.effect-oscar figcaption::before {
-    bottom: -170px;
-  }
-  figure.effect-oscar.effect-mod figcaption::before {
-    bottom: -170px;
-  }
-}
-@media (max-width: 390px) {
-  .tab__content-wrapper .tab-item__box {
-    margin-bottom: 99px;
-  }
-  figure.effect-oscar figcaption::before {
-    bottom: -90px;
-  }
-}
+// @media (max-width: 390px) {
+
+//   .tab__content-wrapper .tab-item__box {
+//     margin-bottom: 150px;
+//   }
+//   figure.effect-oscar figcaption::before {
+//     bottom: -170px;
+//   }
+//   figure.effect-oscar.effect-mod figcaption::before {
+//     bottom: -170px;
+//   }
+// }
+// @media (max-width: 390px) {
+//   .tab__content-wrapper .tab-item__box {
+//     margin-bottom: 99px;
+//   }
+//   figure.effect-oscar figcaption::before {
+//     bottom: -90px;
+//   }
+// }
